@@ -85,13 +85,12 @@ void do_lookup_entry(Phone_Directory& the_directory)
 	}
 }
 
-void do_remove_entry(Phone_Directory& the_directory) // Exercise 1.8: please complete the function do_remove_entry - Ed/Kent
+void do_remove_entry(Phone_Directory& the_directory) // Exercise 1.8: please complete the function do_remove_entry - Ed/Kent //Anujin Munkhbat
 {
 	string name;
 	cout << "Enter name: ";
 	getline(cin, name);
-	// Complete the rest of this function 
-	
+	the_directory.remove_entry(name);
 }
 
 void do_save(Phone_Directory& the_directory)
